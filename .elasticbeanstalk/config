@@ -1,0 +1,16 @@
+[global]
+ApplicationName=mysite
+AwsCredentialFile=C:\Users\ANKITA\.elasticbeanstalk\aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-west-2.amazonaws.com
+EnvironmentName=mysite-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=LoadBalanced
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=C:\Python27\Lib\site-packages\django\bin\mysite\.elasticbeanstalk\optionsettings.mysite-env
+RdsDeletionPolicy=Delete
+RdsEnabled=Yes
+RdsSourceSnapshotName=
+Region=us-west-2
+ServiceEndpoint=https://elasticbeanstalk.us-west-2.amazonaws.com
+SolutionStack=32bit Amazon Linux 2014.03 v1.0.9 running Python
+
